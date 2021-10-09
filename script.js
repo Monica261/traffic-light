@@ -4,24 +4,24 @@ const green = document.getElementById('greenButton');
 
 
 function clickRed() {
-  clickClear();
+  start();
   const redLight = document.getElementById('redLight').style.backgroundColor = "#c00";
 }
 red.addEventListener('click', clickRed);
 
 function clickYellow() {
-  clickClear();
+  start();
   const yellowLight = document.getElementById('yellowLight').style.backgroundColor = "#cc0";
 }
 yellow.addEventListener('click', clickYellow);
 
 function clickGreen(){
-  clickClear();
+  start();
   document.getElementById('greenLight').style.backgroundColor = "#0c0";
 }
 green.addEventListener('click', clickGreen);
 
-function clickClear() {
+function start() {
   document.getElementById('redLight').style.backgroundColor = "black";
   document.getElementById('yellowLight').style.backgroundColor = "black";
   document.getElementById('greenLight').style.backgroundColor = "black";
