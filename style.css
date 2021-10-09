@@ -15,18 +15,6 @@ li + li {
   margin: 1.5rem 0 0;
 }
 
-li:nth-child(1) {
-  background-color: #c00;
-}
-
-li:nth-child(2) {
-  background-color: #cc0;
-}
-
-li:nth-child(3) {
-  background-color: #0c0;
-}
-
 .container{
   height: 100vh;
   display: flex;
