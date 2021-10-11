@@ -50,8 +50,7 @@ li + li {
 
 .btn:hover{
   color: #fff!important;
-  transform: scale(1.1);
-  transition-duration: 6s!important;
+  background: #B0C4DE!important;
 }
 
 .btns{
