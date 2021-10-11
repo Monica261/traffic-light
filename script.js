@@ -2,6 +2,7 @@ const red = document.getElementById('redButton');
 const yellow = document.getElementById('yellowButton');
 const green = document.getElementById('greenButton');
 const reset = document.getElementById('reset');
+reset.addEventListener('click', start);
 
 function clickRed() {
   start();
@@ -20,8 +21,6 @@ function clickGreen(){
   document.getElementById('greenLight').style.backgroundColor = "#0c0";
 }
 green.addEventListener('click', clickGreen);
-
-reset.addEventListener('click', start);
 
 function start() {
   document.getElementById('redLight').style.backgroundColor = "black";
